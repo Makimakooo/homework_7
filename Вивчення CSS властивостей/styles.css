@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+.main, .main1 {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+
+.main1 {
+    display: grid;
+    gap: 5px;
+}
+
+
+p {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+
+li {
+    padding: 10px;
+    border: 1px solid #1d0202;
+    background-color: #f4f4f4;
+    box-sizing: border-box; 
+}

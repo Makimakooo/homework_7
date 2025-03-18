@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(241, 217, 176);
+}
+
+.container {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;   
+    padding: 5px;
+}
+
+.box {
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px solid #1a1717;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+span {
+    color: blueviolet;
+}
+
+.maintext {
+background-color: antiquewhite;
+margin: 15px;
+padding: 15px;
+color:black
+}
