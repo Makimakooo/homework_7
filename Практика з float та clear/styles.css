@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.content {
+    text-align: justify;
+}
+
+.block-left {
+    text-align:center;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(172, 219, 18);
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+.block-right {
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    background-color: rgb(14, 209, 115);
+    float: right;
+    margin: 10px 0 10px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
